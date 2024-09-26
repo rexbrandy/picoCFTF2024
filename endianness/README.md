@@ -1,10 +1,13 @@
-##### Author
-Nana Ama Atombo-Sackey
+# Endianness
+[https://play.picoctf.org/practice/challenge/414](Challenge)
 
 ### Description
 Know of little and big endian?
 
-# Solution
+##### Author
+Nana Ama Atombo-Sackey
+
+## Solution
 In this challenge we are given the source code for a script that generates a random 5 character string and askes us to provide the big endian and little endian representations of this string.
 
 ```
@@ -26,4 +29,14 @@ Enter the Big Endian representation: 687A787876
 Correct Big Endian representation!
 Congratulations! You found both endian representations correctly!
 Your Flag is: picoCTF{3ndi4n_sw4p_su33ess_817b7cfe}
+```
+
+I have also written a script that will take the given word and return the LE and BE.
+
+```
+> ./test
+Enter word
+hzxxv
+LE: 7678787A68
+BE: 687A787876
 ```
